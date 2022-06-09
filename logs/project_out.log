@@ -1,0 +1,255 @@
+[2022-06-08T09:24:44.487] [ERROR] default - DriverPackageNotInstalledError: Postgres package has not been found installed. Try to install it: npm install pg --save
+    at PostgresDriver.loadDependencies (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\postgres\PostgresDriver.js:1038:19)
+    at new PostgresDriver (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\postgres\PostgresDriver.js:218:14)
+    at DriverFactory.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\DriverFactory.js:36:24)
+    at new DataSource (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\data-source\DataSource.js:49:59)
+    at ConnectionManager.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\connection\ConnectionManager.js:59:28)
+    at createConnection (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\globals.js:60:35)
+    at Object.<anonymous> (C:\Users\11104311\Desktop\tyscript練習\test.js:46:32)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+[2022-06-08T09:50:45.740] [INFO] default - Listening on port: undefined.
+[2022-06-08T09:53:56.454] [INFO] default - Listening on port: 3000.
+[2022-06-08T09:58:49.298] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:00:08.365] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:02:22.017] [ERROR] default - 測試
+[2022-06-08T10:02:22.423] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:03:11.127] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:04:09.198] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:10:55.066] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:13:34.497] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:22:04.801] [ERROR] default - ReferenceError: connectLogger is not defined
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:64:13
+    at step (C:\Users\11104311\Desktop\tyscript練習\test.js:33:23)
+    at Object.next (C:\Users\11104311\Desktop\tyscript練習\test.js:14:53)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\11104311\Desktop\tyscript練習\test.js:4:12)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:58:92
+    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+[2022-06-08T10:22:26.447] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:22:35.740] [INFO] default - ::1 GET[200][3ms] / undefined
+[2022-06-08T10:34:22.235] [WARN] default - ::1 GET[304][3ms] /api-docs/ undefined
+[2022-06-08T10:34:22.266] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:34:22.275] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:34:22.280] [WARN] default - ::1 GET[304][5ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:34:22.287] [WARN] default - ::1 GET[304][13ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:34:22.787] [INFO] default - ::1 GET[200][6ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:34:23.359] [WARN] default - ::1 GET[304][1ms] /api-docs/ undefined
+[2022-06-08T10:34:23.385] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:34:23.391] [WARN] default - ::1 GET[304][2ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:34:23.392] [WARN] default - ::1 GET[304][6ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:34:23.393] [WARN] default - ::1 GET[304][5ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:34:23.596] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:34:39.304] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:34:46.047] [WARN] default - ::1 GET[304][6ms] /api-docs/ undefined
+[2022-06-08T10:34:46.075] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:34:46.086] [INFO] default - ::1 GET[200][4ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:34:46.090] [WARN] default - ::1 GET[304][13ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:34:46.102] [WARN] default - ::1 GET[304][23ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:34:46.404] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:35:45.356] [WARN] default - ::1 GET[304][1ms] /api-docs/ undefined
+[2022-06-08T10:35:45.395] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:35:45.417] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:35:45.420] [WARN] default - ::1 GET[304][5ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:35:45.426] [WARN] default - ::1 GET[304][9ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:35:45.867] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:35:46.798] [WARN] default - ::1 GET[304][1ms] /api-docs/ undefined
+[2022-06-08T10:35:46.826] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:35:46.831] [WARN] default - ::1 GET[304][2ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:35:46.848] [WARN] default - ::1 GET[304][19ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:35:46.852] [WARN] default - ::1 GET[304][24ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:35:47.180] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:35:54.478] [INFO] default - ::ffff:127.0.0.1 GET[200][1ms] / undefined
+[2022-06-08T10:35:54.643] [ERROR] default - ::ffff:127.0.0.1 GET[404][2ms] /favicon.ico undefined
+[2022-06-08T10:36:05.163] [WARN] default - ::ffff:127.0.0.1 GET[301][1ms] /api-docs undefined
+[2022-06-08T10:36:05.176] [INFO] default - ::ffff:127.0.0.1 GET[200][1ms] /api-docs/ undefined
+[2022-06-08T10:36:05.222] [INFO] default - ::ffff:127.0.0.1 GET[200][0ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:36:05.256] [INFO] default - ::ffff:127.0.0.1 GET[200][45ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:36:05.264] [INFO] default - ::ffff:127.0.0.1 GET[200][49ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:36:05.277] [INFO] default - ::ffff:127.0.0.1 GET[200][63ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:36:05.937] [INFO] default - ::ffff:127.0.0.1 GET[200][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:36:16.268] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:36:16.487] [WARN] default - ::ffff:127.0.0.1 GET[304][4ms] /api-docs/ undefined
+[2022-06-08T10:36:16.508] [WARN] default - ::ffff:127.0.0.1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:36:16.514] [WARN] default - ::ffff:127.0.0.1 GET[304][1ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:36:16.516] [WARN] default - ::ffff:127.0.0.1 GET[304][3ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:36:16.529] [INFO] default - ::ffff:127.0.0.1 GET[200][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:36:17.091] [WARN] default - ::ffff:127.0.0.1 GET[304][2ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:36:47.090] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:36:54.112] [WARN] default - ::ffff:127.0.0.1 GET[304][6ms] /api-docs/ undefined
+[2022-06-08T10:36:54.129] [WARN] default - ::ffff:127.0.0.1 GET[304][2ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T10:36:54.131] [WARN] default - ::ffff:127.0.0.1 GET[304][0ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T10:36:54.132] [WARN] default - ::ffff:127.0.0.1 GET[304][2ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T10:36:54.133] [WARN] default - ::ffff:127.0.0.1 GET[304][3ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T10:36:54.441] [WARN] default - ::ffff:127.0.0.1 GET[304][4ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T10:56:42.962] [ERROR] default - Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\router\route.js:211:15)
+    at Function.app.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\application.js:499:19)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:71:31
+    at Array.forEach (<anonymous>)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:70:28
+    at step (C:\Users\11104311\Desktop\tyscript練習\test.js:33:23)
+    at Object.next (C:\Users\11104311\Desktop\tyscript練習\test.js:14:53)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\11104311\Desktop\tyscript練習\test.js:4:12)
+[2022-06-08T10:57:30.109] [ERROR] default - Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\router\route.js:211:15)
+    at Function.app.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\application.js:499:19)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:71:31
+    at Array.forEach (<anonymous>)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:70:28
+    at step (C:\Users\11104311\Desktop\tyscript練習\test.js:33:23)
+    at Object.next (C:\Users\11104311\Desktop\tyscript練習\test.js:14:53)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\11104311\Desktop\tyscript練習\test.js:4:12)
+[2022-06-08T10:57:46.853] [INFO] default - Listening on port: 3000.
+[2022-06-08T10:57:56.546] [INFO] default - ::1 GET[200][3ms] / undefined
+[2022-06-08T10:58:40.565] [ERROR] default - Error: Route.get() requires a callback function but got a [object Undefined]
+    at Route.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\router\route.js:211:15)
+    at Function.app.<computed> [as get] (C:\Users\11104311\Desktop\tyscript練習\node_modules\express\lib\application.js:499:19)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:71:31
+    at Array.forEach (<anonymous>)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:70:28
+    at step (C:\Users\11104311\Desktop\tyscript練習\test.js:33:23)
+    at Object.next (C:\Users\11104311\Desktop\tyscript練習\test.js:14:53)
+    at C:\Users\11104311\Desktop\tyscript練習\test.js:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (C:\Users\11104311\Desktop\tyscript練習\test.js:4:12)
+[2022-06-08T10:59:58.104] [INFO] default - Listening on port: 3000.
+[2022-06-08T11:01:13.262] [INFO] default - Listening on port: 3000.
+[2022-06-08T11:02:18.658] [INFO] default - Listening on port: 3000.
+[2022-06-08T11:02:18.681] [INFO] default - ::1 GET[200][5ms] / undefined
+[2022-06-08T11:47:43.318] [INFO] default - Listening on port: 3000.
+[2022-06-08T11:47:45.095] [INFO] default - ::1 GET[200][6ms] / undefined
+[2022-06-08T11:49:25.867] [INFO] default - Listening on port: 3000.
+[2022-06-08T11:49:30.681] [INFO] default - ::1 GET[200][21ms] / undefined
+[2022-06-08T12:59:54.204] [INFO] default - Listening on port: 3000.
+[2022-06-08T12:59:57.888] [INFO] default - ::1 GET[200][36ms] / undefined
+[2022-06-08T13:04:12.308] [INFO] default - Listening on port: 3000.
+[2022-06-08T13:04:12.589] [INFO] default - ::1 GET[200][26ms] / undefined
+[2022-06-08T13:08:23.198] [INFO] default - Listening on port: 3000.
+[2022-06-08T13:08:25.744] [INFO] default - ::1 GET[200][42ms] / undefined
+[2022-06-08T13:09:35.629] [INFO] default - Listening on port: 3000.
+[2022-06-08T13:09:38.285] [INFO] default - ::1 GET[200][23ms] / undefined
+[2022-06-08T13:11:17.659] [INFO] default - Listening on port: 3000.
+[2022-06-08T13:11:19.823] [INFO] default - ::1 GET[200][15ms] / undefined
+[2022-06-08T14:07:03.137] [INFO] default - Listening on port: 3000.
+[2022-06-08T14:07:15.166] [INFO] default - Listening on port: 3000.
+[2022-06-08T14:07:25.290] [INFO] default - ::1 GET[200][8ms] / undefined
+[2022-06-08T14:08:10.984] [ERROR] default - ::1 GET[404][2ms] /api-doc undefined
+[2022-06-08T14:09:10.032] [WARN] default - ::1 GET[301][1ms] /api-docs undefined
+[2022-06-08T14:09:10.032] [WARN] default - undefined GET[304][3ms] /api-docs/ undefined
+[2022-06-08T14:09:10.051] [INFO] default - ::1 GET[200][2ms] /api-docs/ undefined
+[2022-06-08T14:09:10.094] [WARN] default - ::1 GET[304][4ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:10.098] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:10.099] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:10.112] [INFO] default - ::1 GET[200][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:17.524] [INFO] default - Listening on port: 3000.
+[2022-06-08T14:09:19.193] [WARN] default - ::1 GET[304][5ms] /api-docs/ undefined
+[2022-06-08T14:09:19.215] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:19.221] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:19.239] [WARN] default - ::1 GET[304][23ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:19.253] [WARN] default - ::1 GET[304][35ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:19.599] [WARN] default - ::1 GET[304][3ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T14:09:20.171] [WARN] default - ::1 GET[304][0ms] /api-docs/ undefined
+[2022-06-08T14:09:20.196] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:20.204] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:20.207] [WARN] default - ::1 GET[304][5ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:20.225] [WARN] default - ::1 GET[304][22ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:20.356] [WARN] default - ::1 GET[304][0ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T14:09:23.597] [WARN] default - ::1 GET[304][0ms] /api-docs/ undefined
+[2022-06-08T14:09:23.616] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:23.618] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:23.619] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:23.620] [WARN] default - ::1 GET[304][3ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:23.757] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T14:09:23.967] [WARN] default - ::1 GET[304][1ms] /api-docs/ undefined
+[2022-06-08T14:09:23.989] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:23.993] [WARN] default - ::1 GET[304][1ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:23.995] [WARN] default - ::1 GET[304][3ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:23.997] [WARN] default - ::1 GET[304][5ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:24.104] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T14:09:24.288] [WARN] default - ::1 GET[304][2ms] /api-docs/ undefined
+[2022-06-08T14:09:24.311] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui.css undefined
+[2022-06-08T14:09:24.315] [WARN] default - ::1 GET[304][0ms] /api-docs/swagger-ui-init.js undefined
+[2022-06-08T14:09:24.317] [WARN] default - ::1 GET[304][2ms] /api-docs/swagger-ui-bundle.js undefined
+[2022-06-08T14:09:24.318] [WARN] default - ::1 GET[304][4ms] /api-docs/swagger-ui-standalone-preset.js undefined
+[2022-06-08T14:09:24.426] [WARN] default - ::1 GET[304][1ms] /api-docs/favicon-32x32.png undefined
+[2022-06-08T14:09:55.031] [INFO] default - Listening on port: 3000.
+[2022-06-08T14:09:57.868] [INFO] default - ::1 GET[200][9ms] / undefined
+[2022-06-08T14:45:24.000] [INFO] default - Listening on port: 3000.
+[2022-06-08T14:47:29.734] [INFO] default - undefined GET[200][120016ms] / undefined
+[2022-06-08T15:05:37.894] [INFO] default - Listening on port: 3000.
+[2022-06-08T15:08:34.460] [INFO] default - Listening on port: 3000.
+[2022-06-08T15:12:42.828] [INFO] default - Listening on port: 3000.
+[2022-06-08T15:30:23.549] [INFO] default - Listening on port: 3000.
+[2022-06-08T15:31:13.276] [INFO] default - Listening on port: 3000.
+[2022-06-08T16:27:55.265] [INFO] default - Listening on port: 3000.
+[2022-06-08T16:28:05.072] [INFO] default - ::1 GET[200][9ms] / undefined
+[2022-06-08T17:14:04.989] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:14:07.887] [INFO] default - ::1 GET[200][4ms] / undefined
+[2022-06-08T17:19:19.188] [ERROR] default - MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\DriverFactory.js:72:23)
+    at new DataSource (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\data-source\DataSource.js:49:59)
+    at ConnectionManager.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\connection\ConnectionManager.js:59:28)
+    at createConnection (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\globals.js:60:35)
+    at Object.<anonymous> (C:\Users\11104311\Desktop\tyscript練習\test.js:69:32)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+[2022-06-08T17:20:11.954] [ERROR] default - MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\DriverFactory.js:72:23)
+    at new DataSource (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\data-source\DataSource.js:49:59)
+    at ConnectionManager.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\connection\ConnectionManager.js:59:28)
+    at createConnection (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\globals.js:60:35)
+    at Object.<anonymous> (C:\Users\11104311\Desktop\tyscript練習\test.js:69:32)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+[2022-06-08T17:20:36.597] [ERROR] default - MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\DriverFactory.js:72:23)
+    at new DataSource (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\data-source\DataSource.js:49:59)
+    at ConnectionManager.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\connection\ConnectionManager.js:59:28)
+    at createConnection (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\globals.js:60:35)
+    at Object.<anonymous> (C:\Users\11104311\Desktop\tyscript練習\test.js:69:32)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+[2022-06-08T17:21:24.456] [ERROR] default - MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\driver\DriverFactory.js:72:23)
+    at new DataSource (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\data-source\DataSource.js:49:59)
+    at ConnectionManager.create (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\connection\ConnectionManager.js:59:28)
+    at createConnection (C:\Users\11104311\Desktop\tyscript練習\node_modules\typeorm\globals.js:60:35)
+    at Object.<anonymous> (C:\Users\11104311\Desktop\tyscript練習\test.js:69:32)
+    at Module._compile (internal/modules/cjs/loader.js:1158:30)
+    at Object.Module._extensions..js (internal/modules/cjs/loader.js:1178:10)
+    at Module.load (internal/modules/cjs/loader.js:1002:32)
+    at Function.Module._load (internal/modules/cjs/loader.js:901:14)
+    at Function.executeUserEntryPoint [as runMain] (internal/modules/run_main.js:74:12)
+[2022-06-08T17:22:37.445] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:22:41.811] [INFO] default - ::1 GET[200][7ms] / undefined
+[2022-06-08T17:22:56.304] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:23:01.599] [INFO] default - ::1 GET[200][5ms] / undefined
+[2022-06-08T17:41:47.308] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:41:54.084] [INFO] default - ::1 GET[200][4ms] / undefined
+[2022-06-08T17:43:51.113] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:43:53.405] [INFO] default - ::1 GET[200][6ms] / undefined
+[2022-06-08T17:44:44.732] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:44:46.061] [INFO] default - ::1 GET[200][4ms] / undefined
+[2022-06-08T17:50:21.769] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:50:30.483] [INFO] default - ::1 GET[200][8ms] / undefined
+[2022-06-08T17:51:09.031] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:51:27.224] [INFO] default - ::1 GET[200][5ms] / undefined
+[2022-06-08T17:57:33.223] [INFO] default - Listening on port: 3000.
+[2022-06-08T17:57:41.884] [INFO] default - ::1 GET[200][8ms] / undefined
+[2022-06-09T14:56:23.161] [INFO] default - Listening on port: 3000.
