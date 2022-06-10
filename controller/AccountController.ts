@@ -1,11 +1,34 @@
 import { Request, Response, NextFunction } from 'express';
-import { getAccount, getAllAccount } from '../services/AccountService';
+import {getAllAccount, addAccount, deleteAccount} from '../services/AccountService';
 
-export const getName = async (req: Request, res: Response, next: NextFunction) => {
+export const getList = async (req: Request, res: Response, next: NextFunction) => {
   try {
-    const result = await getAccount();
-    getAllAccount();
+    const result = await getAllAccount();
     res.send(result);
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const save = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    let name = req.body.name;
+    let password = req.body.password;
+    const result = await addAccount(name, password);
+    // res.send(result);
+    res.send("tes")
+  } catch (err) {
+    next(err);
+  }
+};
+
+export const del = async (req: Request, res: Response, next: NextFunction) => {
+  try {
+    let name = req.body.name;
+    let password = req.body.password;
+    const result = await deleteAccount(name, password);
+    // res.send(result);
+    res.send("tes")
   } catch (err) {
     next(err);
   }

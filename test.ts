@@ -9,7 +9,7 @@ import errorHandler from './middleware/errorHandler';
 import { connectLogger } from 'log4js';
 import { createConnection } from 'typeorm';
 import dbconfig from './config/database';
-
+import * as bodyParser from 'body-parser';
 
 const PORT = 3000;
 createConnection(dbconfig).then(async (connection) => {
@@ -23,6 +23,7 @@ createConnection(dbconfig).then(async (connection) => {
     format: (req, res, format) => format(`:remote-addr :method[:status][:response-timems] :url ${JSON.stringify(req.body)}`),
     nolog: '/\.(gif|jpe?g|png)$/',
   }));
+  app.use(bodyParser.json());
 
   AppRoutes.forEach((route) => {
     app[route.method](

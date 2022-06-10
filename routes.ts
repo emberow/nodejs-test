@@ -1,5 +1,5 @@
 import { RequestHandler } from 'express';
-import {getName} from './controller/AccountController';
+import * as AccountController from './controller/AccountController';
 
 interface IRouteItem {
     path: string;
@@ -12,13 +12,33 @@ export const AppRoutes: IRouteItem[] = [
     path: '',
     method: 'get',
     middlewares: [
-      getName,
+      AccountController.getList,
       (req, res, next) => {
         console.log("aaaa");
         next();
       },
       (req, res) => {
-        res.send("hi");
+        res.send("查詢完畢");
+      },
+    ],
+  },
+  {
+    path: '',
+    method: 'post',
+    middlewares: [
+      AccountController.save,
+      (req, res) => {
+        res.send("新增成功");
+      },
+    ],
+  },
+  {
+    path: '',
+    method: 'delete',
+    middlewares: [
+      AccountController.del,
+      (req, res) => {
+        res.send("新增成功");
       },
     ],
   }

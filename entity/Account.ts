@@ -1,10 +1,10 @@
 
-import { EntitySchema, Entity, PrimaryGeneratedColumn, Column } from 'typeorm';
+import { EntitySchema, Entity, PrimaryGeneratedColumn, Column, PrimaryColumn } from 'typeorm';
 
 @Entity()
 export class account {
 
-  @PrimaryGeneratedColumn()
+  @PrimaryColumn()
   public name: string;
 
   @Column()

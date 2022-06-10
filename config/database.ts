@@ -1,8 +1,6 @@
 import { ConnectionOptions } from 'typeorm';
 
-const resolveFilePath = (folderName: string): string => {
-  return process.env.NODE_ENV === 'production' ? `out/${folderName}/*.js` : `src/${folderName}/*.ts`;
-};
+
 
 const dbconfig: ConnectionOptions = {
   type: "postgres",
@@ -10,16 +8,15 @@ const dbconfig: ConnectionOptions = {
   port: 5432,
   username: "postgres",
   password: "32865417",
-  database: "keepAccounts",
+  database: "test",
   
   migrationsRun: false,
   synchronize: false,
   logging: ['error'],
   maxQueryExecutionTime: 5000,
   entities: [
-    resolveFilePath('entity'),
+    "out/entity/*.js"
   ],
-
 };
 
 export default dbconfig;
